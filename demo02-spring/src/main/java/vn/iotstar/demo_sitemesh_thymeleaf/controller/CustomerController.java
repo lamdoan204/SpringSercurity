@@ -15,8 +15,8 @@ import vn.iotstar.demo_sitemesh_thymeleaf.entity.Customer;
 @EnableMethodSecurity
 public class CustomerController {
 	final private List<Customer> customers = List.of(
-			Customer.builder().id("001").name("Liên Huệ Tiên").email("lienhuetien01@gmail.com").build(),
-			Customer.builder().id("002").name("Liên Huệ Tiên").email("22110433@student.hcmute.edu.vn").build()
+			Customer.builder().id("001").name("Doan Quang Lam").email("Doanquanglam01@gmail.com").build(),
+			Customer.builder().id("002").name("Doan Quang Lam").email("22133032@student.hcmute.edu.vn").build()
 			);
 	
 			@GetMapping("/hello")
